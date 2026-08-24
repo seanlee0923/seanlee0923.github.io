@@ -1,0 +1,25 @@
+# 유저네임.github.io 입력
+baseURL: https://seanlee0923.github.io/
+
+# 한국, 한글
+locale: "ko-kr"
+
+# 블로그명 입력
+title: "Sean's Tech and Life Blog"
+
+# theme 에다가 방금 설치한 테마 이름 입력
+theme:
+  - PaperMod
+
+# 타임존 입력 (UTC 가 편한 사람은 utc 로 사용하면 됨"
+timeZone: "Asia/Seoul"
+
+# 
+enableRobotsTXT: true
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
