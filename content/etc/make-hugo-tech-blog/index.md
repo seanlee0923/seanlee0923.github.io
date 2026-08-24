@@ -162,8 +162,6 @@ tags:
   - Hugo
   - GitHub Pages
   - GitHub Actions
-categories:
-  - Blog
 ---
 ```
 
@@ -200,7 +198,7 @@ hugo server -D
 로컬 환경에서 셋팅이 완료되었다면 첫 커밋을 진행하면 된다. 
 
 ```zsh
-git commit .
+git add .
 # 커밋 메시지는 원하는대로 수정하면 됨
 git commit -m "initialize Hugo tech blog"
 # 커밋 이후 Push
@@ -217,7 +215,7 @@ git push origin main
 
 이후 browse all workflows 링크를 클릭한 뒤에 hugo 를 검색해서 선택.
 
-이후 HUGO_VERSION 을 1.165 로 업데이트 한 이후 메인에 커밋하면 된다.(테마때문에 최신 버전을 사용해야 빌드에 성공한다.)
+이후 HUGO_VERSION 을 0.165.0 로 업데이트 한 이후 메인에 커밋하면 된다.(테마때문에 최신 버전을 사용해야 빌드에 성공한다.)
 ![github actions 설정](add-github-actions.png)
 
 ## 11. 이제 작성이 완료된 글을 실제로 배포를 진행하면 된다.

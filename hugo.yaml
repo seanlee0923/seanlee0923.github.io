@@ -14,7 +14,6 @@ theme:
 # 타임존 입력 (UTC 가 편한 사람은 utc 로 사용하면 됨"
 timeZone: "Asia/Seoul"
 
-# 
 enableRobotsTXT: true
 
 params:
@@ -22,4 +21,38 @@ params:
   ShowReadingTime: true
   ShowCodeCopyButtons: true
   ShowToc: true
+  comments: true
 
+  mainSections:
+    - golang
+    - devops
+    - os
+    - algorithm
+    - etc
+    - life
+
+menus:
+  main:
+    - name: "Golang"
+      url: "/golang/"
+      weight: 10
+
+    - name: "DevOps"
+      url: "/devops/"
+      weight: 20
+
+    - name: "OS"
+      url: "/os/"
+      weight: 30
+
+    - name: "알고리즘"
+      url: "/algorithm/"
+      weight: 40
+
+    - name: "Etc"
+      url: "/etc/"
+      weight: 50
+
+    - name: "Life"
+      url: "/life/"
+      weight: 60
