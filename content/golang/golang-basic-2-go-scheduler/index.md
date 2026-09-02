@@ -1622,6 +1622,8 @@ Worker Thread의 parking/unparking, spinning M, timer, network poller, syscall, 
 
 라는 큰 흐름을 먼저 이해하고 나니 코드가 조금은 덜 막막하게 보이는 것 같다.
 
+내가 그냥 `go` 딸깍 하면서 편하게 고루틴을 사용하고 있었는데 뒤에서는 이런 일이 일어나고 있었다 ㅋㅋ.
+
 다음에는 Memory Allocator를 보기 전에 Scheduler에서 남은 부분을 조금 더 살펴볼지 고민해봐야겠다.
 
 (벌써 `proc.go` 하나만으로 글을 몇 개 쓸 수 있을 것 같다.)
